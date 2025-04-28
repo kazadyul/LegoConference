@@ -1,0 +1,137 @@
+.navbar-brand {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img{
+    width: 40px;
+    margin-right: 5px;
+}
+
+        .lego-logo {
+            width: 200px;
+        }
+
+        @keyframes rotateLogo {
+            0% {
+                transform: rotateY(0deg);
+            }
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+
+        .lego-logo {
+            transform-style: preserve-3d;
+            transform: rotateY(0deg);
+        }
+
+        .lego-logo.started {
+            animation: rotateLogo 3s linear infinite;
+        }
+
+header {
+    background-color: #fed502;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+#map {
+    height: 400px;
+    min-height: 400px;
+    width: 100%;
+}
+
+.card img {
+    max-height: 180px;
+    object-fit: contain;
+    padding: 10px;
+    height: 180px;
+}
+
+#lego-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border-radius: 12px;
+    align-items: stretch;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    filter: grayscale(0.8);
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    filter: grayscale(0);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #f3e921;
+    box-shadow: 0 0 8px #dab839;
+}
+
+.submit {
+    color: white !important;
+}
+
+
+#instagramIcon {
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 55%;
+    height: auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    video {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
+
