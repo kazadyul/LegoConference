@@ -18,7 +18,6 @@
 - [x] CSS3 transformace 2D/3D **(2 body)**
 - [x] CSS3 transitions/animations **(2 body)**
 - [x] Media queries – responzivní design **(2 body)** 
-  - **TODO: add something else**
 
 ## JavaScript (12 bodů)
 - [x] OOP přístup – prototypová dědičnost, jmenné prostory **(2 body)**
