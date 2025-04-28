@@ -1,7 +1,7 @@
-# Požadavky na semestrální projekt – Sledování postupu
+# Požadavky na semestrální projekt
 
 ## Dokumentace (1 bod)
-- [ ] Cíl projektu, postup, popis funkčnosti, komentáře ve zdrojovém kódu **(1 bod)**
+- [x] Cíl projektu, postup, popis funkčnosti, komentáře ve zdrojovém kódu **(1 bod)**
 
 ## HTML 5 (10 bodů)
 - [x] Validní použití HTML5 doctype **(1 bod)** [https://validator.w3.org](https://validator.w3.org)

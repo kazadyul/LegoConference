@@ -1,9 +1,9 @@
 # LEGO Conference Web App
 
 This React-based web application serves as the official website for the **LEGO Conference**, bringing together 
-enthusiasts, creators, and fans for a unique experience. The site showcases conference details, 
+enthusiasts, creators, and fans for a unique experience. The site displays conference details, 
 an interactive gallery of featured sets, registration functionality, and contact information — 
-all of which are designed to make life easy and interesting!
+all of which are designed to inform fans about the upcoming conference in a fun and interesting way!
 
 ## Key Features 
 
@@ -25,6 +25,9 @@ all of which are designed to make life easy and interesting!
 
 - **Responsive Design**: Fully responsive layout with CSS media queries for video, gallery, and overall page structure.
 
+*Check out [checklist.md](https://github.com/kazadyul/LegoConference/blob/main/checklist.md) for full functional reuirements list*
+
+
 ## Project Structure
 
 ```
@@ -42,6 +45,8 @@ src/
 │  └─ Schedule.jsx    
 └─ public/          # Static files (logo, video, icons)
 ```
+
+*\*Originally the web was built as one .html file but later was changed to multiple-component React application for better readability*\*
 
 ## Usage
 
