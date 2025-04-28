@@ -61,7 +61,14 @@ src/
 
    ```bash
    npm run build
-   npm run preview   # or serve -s dist
+   npm run preview
+   ```
+
+4. **Build for gh-pages**:
+
+   ```bash
+   npm run build
+   npm run deploy
    ```
 
 ## Technologies
