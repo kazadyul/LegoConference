@@ -23,8 +23,8 @@ const Contact = () => {
             <div className="container">
                 <h2>Contact</h2>
                 <p>Have any questions? Contact us!</p>
-                <a href="https://www.instagram.com" target="_blank">
-                    <img id="instagramIcon" src="/insta.png" alt="Instagram" />
+                <a href="https://www.instagram.com/cvutpraha/?hl=en" target="_blank">
+                    <img id="instagramIcon" src="insta.png" alt="Instagram" />
                 </a>
                 {isOnline ? <Map /> : <p style={{ color: "red" }}>Map is unavailable while offline.</p>}            </div>
         </section>

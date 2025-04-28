@@ -20,7 +20,7 @@ const About = () => {
                 <h2>About the Conference</h2>
                 <p>The LEGO Conference is a place where enthusiasts, inventors, and LEGO fans come together.</p>
                 <video id="video-player" controls>
-                    <source src="/preview_video.mp4" type="video/mp4"/>
+                    <source src="preview_video.mp4" type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
             </div>
